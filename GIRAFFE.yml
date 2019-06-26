@@ -5,4 +5,4 @@ tools:
       - GIRAFFE/porcupine_pipeline.pork
     grammars:
       - language: 'Test'
-        script: GIRAFFE/test.js
+        script: GIRAFFE/test.mjs
