@@ -7,4 +7,4 @@ tools:
       - https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm_nodes.json
     grammars:
       - language: TvM
-        script: GIRAFFE/test.mjs
+        script: GIRAFFE/test.js
