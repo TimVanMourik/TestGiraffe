@@ -3,6 +3,8 @@ tools:
   porcupine:
     file:
       - GIRAFFE/porcupine_pipeline.pork
+    nodes:
+      - GIRAFFE/tvm_nodes.json
     grammars:
-      - language: 'Test'
-        script: GIRAFFE/test.mjs
+      - language: TvM
+        script: https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm.js
