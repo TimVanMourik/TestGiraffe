@@ -4,7 +4,7 @@ tools:
     file:
       - GIRAFFE/porcupine_pipeline.pork
     nodes:
-      - GIRAFFE/tvm_nodes.json
+      - https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm_nodes.json
     grammars:
       - language: TvM
         script: https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm.js
