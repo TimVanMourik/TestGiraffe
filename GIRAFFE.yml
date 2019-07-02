@@ -8,4 +8,3 @@ tools:
     grammars:
       - language: TvM
         script: GIRAFFE/test.js
-        format: matlab

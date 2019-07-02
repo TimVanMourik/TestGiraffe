@@ -1,12 +1,8 @@
-// module.exports = (nodes, links) => {
-//   alert('Hello world');
-//
-//   console.log({nNodes: nodes.length});
-//   console.log(links.length);
-//
-//   return {nNodes: nodes.length}
-// }
+module.exports = (nodes, links) => {
+  alert('Hello world');
 
-export function writeCode() {
-  return "Nothing to see here, move along!";
+  console.log({nNodes: nodes.length});
+  console.log(links.length);
+
+  return {nNodes: nodes.length}
 }
