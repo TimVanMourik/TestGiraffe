@@ -4,5 +4,5 @@ module.exports = (nodes, links) => {
   console.log({nNodes: nodes.length});
   console.log(links.length);
 
-  return {nNodes: nodes.length}
+  return JSON.stringify({nNodes: nodes.length})
 }
